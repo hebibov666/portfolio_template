@@ -25,8 +25,8 @@ function Services(){
     <span className="position-text text-4xl w-full text-center flex justify-center font-bold">My Services</span>
 </div>
 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  place-items-center gap-[20px] w-full justify-center">
-{services.map(service=>{
-    return <div className="animate__animated animate__bounce service-box flex flex-col gap-[10px] p-[20px]  w-full bg-[#0A0A0A] border-[2px] border-[#252525] hover:border-white rounded-[7px]">
+{services.map((service,index)=>{
+    return <div key={index} className="animate__animated animate__bounce service-box flex flex-col gap-[10px] p-[20px]  w-full bg-[#0A0A0A] border-[2px] border-[#252525] hover:border-white rounded-[7px]">
     <h1 className="text-xl text-white font-bold">{service.service_name}</h1>
     <p className="text-[#9B9B9B] text-[13px]">{service.service_description}</p>
 

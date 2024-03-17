@@ -55,8 +55,8 @@ slidesPerView:2,
    }}
  loop={true}
 >
-    {reviews.map(review=>{
-        return <SwiperSlide>
+    {reviews.map((review,index)=>{
+        return <SwiperSlide key={index}>
         <div  className='w-1/1 h-auto pb-[20px] bg-[#0A0A0A] p-[20px] rounded-[10px] flex flex-col items-center gap-[20px]'>
 <div className='flex justify-center items-center w-[120px] h-[120px]'>
     <img src={review.img} className='w-full h-full rounded-full object-cover' alt=''></img>
