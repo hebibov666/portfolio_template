@@ -1,0 +1,60 @@
+# GoResume Website Template Installation and Customization Guide
+
+Hello and congratulations! Using this document, you can download, install, and customize the Portfolio CV Resume website template. The template is built with Next.js and utilizes modules like Tailwind CSS, Material UI, Swiper Slider, Formik, and Yup. Here's the step-by-step process for installation and customization:
+
+
+## 1. Installation
+
+1. Extract the downloaded file.
+2. Open folder with Visual studio code or any text editor and open terminal.
+3. cd myresume
+4. npm install for required packages and node modules
+5. Start the template by running `npm run dev` or `yarn dev`. This will start your local server and allow you to view the template in your browser.
+
+## 3. Customization
+
+### Home Page
+
+- Open the `pages/index.js`and pages/components/homepage.js file and edit the home page structure. Here, you can .
+change roü of components in website
+### Services
+
+- Open the `pages/components/services.js` file and add your list of services here.
+
+### Skills
+
+- Open the `pages/components/skills.js` file and update the data to list your skills.
+
+### Portfolio
+
+- Open the `pages/components/portfolio.js` file and add your portfolio items here. You can also customize components to edit portfolio items if needed.
+
+### Education and Experience
+
+- Open the `pages/components/education.js` and `pages/experience.js` files and add your education and experience information here.
+
+### Reviews
+
+- Open the `pages/components/reviews.js` file and add customer reviews here.
+
+### Contact Page and Form
+
+- Open the `pages/components/contact.js` file and add your contact information here. We've already set up the form functionality using `Formik` and `Yup`, but you may need to integrate a backend for email submission.
+
+## 4. Style Customization
+
+- You can customize colors, fonts, and general style properties using CSS files in the `styles` folder.
+- Refer to the relevant documentation for Tailwind CSS and Material UI to make style changes.
+
+## 5. Deployment
+
+I wanted to let you know that some of the style codes in the project were done using pure CSS, which means you can modify them directly in the styles/globals.css file. However, the rest of the design elements were created using Tailwind CSS.
+
+If you need to make changes to the pure CSS styles, please feel free to do so in the styles/globals.css file. For any modifications or customizations related to Tailwind CSS, you can refer to the relevant documentation or reach out to me for assistance.
+
+- Once you've tested and customized the template locally, you can deploy the application to your desired web server or platform.
+
+By following these steps, you can download, install, and customize the Portfolio CV Resume website template according to your personal needs. If you have any questions or need assistance, feel free to contact us.
+
+---
+This guide explains step-by-step how to download, install, and customize the Portfolio CV Resume website template. You can customize it according to your needs and present it to your buyers.

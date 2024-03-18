@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Oswald:wght@300;500;700&family=Poppins&family=Roboto:wght@300;400&family=Sora:wght@100..800&display=swap');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -79,4 +79,14 @@ body {
 /* Scroll barı handle'ı (kaydırma kolu) hover durumu */
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
+}
+
+.title{
+  font-family: "Sora", sans-serif;
+}
+.position{
+  font-family: "Sora", sans-serif;
+}
+.counter{
+  font-family:Arial, Helvetica, sans-serif;
 }

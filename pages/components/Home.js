@@ -12,8 +12,8 @@ function HomePage(){
         <div className="icon  min-h-[100vh] w-full rounded-[10px] flex flex-col gap-[40px]">
 <Counter/>
 <Services/>
-<Skills/>
 <Portfolio/>
+<Skills/>
 <div className="grid grid-cols-2 max-[683px]:grid-cols-1 max-[683px]:gap-[50px] pb-[40px]">
     <Experience/>
     <Education/>

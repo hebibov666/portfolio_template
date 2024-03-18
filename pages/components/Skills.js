@@ -45,7 +45,7 @@ function Skills() {
                         <img src={skill.skill_img} className="w-[50%] h-[50%]" alt={skill.skill_name}></img>
                      </div>
                      {/* Skill name */}
-                     <h1 className="text-white">{skill.skill_name}</h1>
+                     <h1 className="text-white title">{skill.skill_name}</h1>
                   </div>
                );
             })}
